@@ -108,7 +108,7 @@
   };
 
   var onPinEnterPress = function (evt) {
-    window.utils.isEnterEvent(evt, activateMap);
+    window.utility.isEnterEvent(evt, activateMap);
   };
 
   var onAdOpen = function (ad) {
@@ -117,7 +117,7 @@
   };
 
   var onCardEscPress = function (evt) {
-    window.utils.isEscEvent(evt, onCardRemove);
+    window.utility.isEscEvent(evt, onCardRemove);
   };
 
   var removeActivePin = function () {

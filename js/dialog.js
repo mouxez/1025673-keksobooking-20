@@ -21,7 +21,7 @@
     };
 
     var onDialogEscPress = function (evt) {
-      window.utils.isEscEvent(evt, removeDialog);
+      window.utility.isEscEvent(evt, removeDialog);
     };
 
     window.map.onDeactivate();
@@ -50,7 +50,7 @@
     };
 
     var onDialogEscPress = function (evt) {
-      window.utils.isEscEvent(evt, removeDialog);
+      window.utility.isEscEvent(evt, removeDialog);
     };
 
     error.querySelector('.error__message').textContent = errorMessage;

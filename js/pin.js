@@ -24,7 +24,7 @@
       advertItem.classList.add('map__pin--active');
     });
     advertItem.addEventListener('keydown', function (evt) {
-      window.utils.isEnterEvent(evt, window.map.onAdOpen, ad);
+      window.utility.isEnterEvent(evt, window.map.onAdOpen, ad);
     });
 
     return advertItem;

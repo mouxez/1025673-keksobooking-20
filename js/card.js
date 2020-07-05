@@ -83,7 +83,7 @@
     }
 
     if (card.offer.rooms !== '' && card.offer.guests !== '') {
-      cardCapacity.textContent = window.utils.getDeclension(card.offer.rooms, roomsDeclension) + ' для ' + window.utils.getDeclension(card.offer.guests, guestsDeclension);
+      cardCapacity.textContent = window.utility.getDeclension(card.offer.rooms, roomsDeclension) + ' для ' + window.utility.getDeclension(card.offer.guests, guestsDeclension);
     } else {
       cardCapacity.style.display = 'none';
     }
